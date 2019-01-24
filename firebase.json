@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/my-app",
+    "public": "dist/ngx-pwa",
     "rewrites": [
       {
         "source": "**",

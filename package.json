@@ -1,10 +1,10 @@
 {
-  "name": "my-app",
+  "name": "ngx-pwa",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --host=0.0.0.0 --open",
-    "build": "ng run my-app:app-shell:production",
+    "build": "ng run ngx-pwa:app-shell:production",
     "test": "ng test --code-coverage",
     "lint": "ng lint",
     "e2e": "ng e2e"

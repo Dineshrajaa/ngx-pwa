@@ -7,6 +7,7 @@ import { MatToolbarModule } from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { environment } from '../environments/environment';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     MatToolbarModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

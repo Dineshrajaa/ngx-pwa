@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('my-app', () => {
+describe('ngx-pwa', () => {
   let page: AppPage;
 
   beforeEach(() => {
@@ -9,6 +9,6 @@ describe('my-app', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to my-app!');
+    expect(page.getTitleText()).toEqual('Welcome to ngx-pwa!');
   });
 });
