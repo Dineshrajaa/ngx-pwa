@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { MatToolbarModule, MatProgressBarModule } from '@angular/material';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 // Modules
 const modules = [
